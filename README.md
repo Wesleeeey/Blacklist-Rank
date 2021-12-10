@@ -4,7 +4,7 @@
 
 * Ouvrez le terminal faite `npm i`
 * Aller dans le fichier `config.json` mettez le token de votre bot et votre prefix
-* Ensuite allez dans le terminal et faite `node main.js`
+* Ensuite allez dans le terminal et faite `node index.js`
 
 ## Liens
 
