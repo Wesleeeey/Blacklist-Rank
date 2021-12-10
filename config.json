@@ -1,0 +1,9 @@
+{
+    "token": "token",
+    "prefix": "prefix (ex: &)",
+    "owner": [
+        "idOwner1",
+        "idOwner2",
+		"idOwner3"
+    ]
+}
