@@ -76,14 +76,14 @@ client.on('message', message => {
                 })
                 if (db.get(`blrank_${member.id}`) === null) {
                     db.set(`blrank_${member.id}`, true)
-                    message.guild.members.cache.get(member.id).roles.cache.forEach(async role => {
-                        message.guild.members.cache.get(member.id).roles.remove(role).catch(() => { })
                         message.channel.send({
                             embed: {
                                 color: 0x2E3136,
                                 description: `J'ai bien ajouté ${member} dans la blrank`
                             }
                         })
+                                message.guild.members.cache.get(member.id).roles.cache.forEach(async role => {
+                        message.guild.members.cache.get(member.id).roles.remove(role).catch(() => { })
                     })
                 } else {
                     message.channel.send({
